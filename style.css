@@ -13,14 +13,14 @@
     width: 100%;
     height: 100px;
     display: flex;
-    background-color: black;
+    background-color: rgba(5, 5, 5, 0.868);
     flex-direction: row;
     justify-content: space-between;
     font-style: "Ubuntu Sans", sans-serif; 
 }
 .logo-box{
     height: 100%;
-    width: 150px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 }
 .logo-box a{
     /* margin-left: 20px; */
-    font-size: 25px;
+    font-size: 35px;
     text-decoration: none;
     color: aliceblue;
     font-style: "Ubuntu Sans", sans-serif; 
@@ -42,10 +42,227 @@
                 0 0 50px blueviolet;
                 
 } 
-nav{
+.nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    padding-right: 150px;
+   
     
+
+}
+.nav div{
+    margin: 40px;
+    /* padding-right: 30px; */
+    color: aliceblue;
+}
+
+.nav div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    transition: 0.3s ease;
+}
+.nav div a:hover,
+.nav div a.active{
+    color: blueviolet;
+    border-bottom:  3px solid whitesmoke ;
+
+
+}
+.but-box{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 22px;
+    margin-right: 45px;
+}
+.but-box button{
+    font-size: 16px;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 15px ;
+    padding: 8px 20px;
+    font-weight: 600;
+
+}
+.but-box button:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-shadow: 0 0 25px blueviolet;
+}
+.port{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.port-content{
+    max-width: 800px;
+    height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    
+    /* flex-direction: column; */
+    /* justify-content: center */
+}
+.port-content h3{
+    font-size: 45px;
+    margin: 140px 120px 0px ;
+}
+.port-content h1{
+    line-height: 1.2;
+    margin: 0px 120px;
+    font-size: 50px;
+ }
+ .port-content h1 span{
+    color: blueviolet;
+ }
+ .port-content p{
+    margin: 10px 120px 0px ;
+    font-size: 25px;
+ }
+.but-cont{
+
+margin: 10px 120px 0px ;
+ }
+ .but-cont button{
+    font-size: 20px;
+    margin: 10px;
+    border: 5px solid transparent;
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-weight: 600;
+
+ }
+ .hire{
+    color:aliceblue;
+    background-color: black;
+ }
+ .exp{
+    color: aliceblue;
+    background-color: blueviolet;
+    transition: 0.3s ease;
+ }
+ .exp:hover{
+    background-color: black;
+    color: blueviolet;
+
+ }
+
+.port-image{
+    /* margin: 100px; */
+    margin-top: 100px;
+    width: 50%;
+    height: 100vh;
+}
+.port-image img{
+    width: 500px;
+    border-radius: 50%;
+}
+.about{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 550px;
+    margin: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px blueviolet,
+                0 0 50px blueviolet;
+}
+.about-cont{
+    max-width: 800px;
+    color: aliceblue;
+
+}
+.about-cont h3{
+    margin: 80px 20px 0 25px;
+    font-size: 50px;
+}
+.about-cont span{
+    font-size: 75px;
+    color: blueviolet;
+    font-weight: 1000;
+}
+.about-cont p{
+    font-size: 30px;
+}
+.skill-pro{
+    height: 100vh;
+    display: flex;
+}
+.skill{
+    width: 40%;
+
+}
+.skill span{
+    font-size: 35px;
+    margin: 5px 200px;
+    width: fit-content;
+    border: 3px solid #000000;
+    display: block;
+    
+    border-radius: 40px;
+    padding: 8px;
+
+
+}
+.skill span:hover{
+    background-color: blueviolet;
+    color: rgb(206, 202, 210);
+    box-shadow: 0 0 25px blueviolet;
+}
+.skill ul{
+    margin: 50px 200px;
+    font: 100px;
+}
+.skill ul li{
+    font-size: 40px;
+}
+.skill ul li img{
+    width: 50px;
+}
+.proj{
+    background-color: black;
+    width: 60%;
+}
+.proj span{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 300px;
+    border: 2px solid white;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    width: fit-content;
+}
+.proj span:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    box-shadow: 0 0 25px blueviolet;
+}
+.proj h3{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    /* border-bottom: 2px solid white; */
+    
+}
+.proj  img{
+    width: 350px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    box-shadow: 0 0 25px blueviolet,
+    0 0 50px blueviolet;
+    margin-top: 20px;
+    margin-left: 120px;
 
 }
